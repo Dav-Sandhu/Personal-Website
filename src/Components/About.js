@@ -9,7 +9,7 @@ const About = () => {
           <img src={PICTURE} alt="unavailable" className="about-picture" />
           <span className="contact">
             <div><u>Personal Information</u></div>
-            <div>Email: davanjit@hotmail</div>
+            <div>Email: davanjit@hotmail.com</div>
             <div>Phone: 519-816-8130</div>
             <div>Location: Canada</div>
             <div>Born: January 24, 1998</div>
@@ -28,7 +28,7 @@ const About = () => {
         <div className="about-sub-header">{` - Gao Tek Inc. (August 2021 - November 2021)`}</div>
         <p className="about-information">Worked on the 'Protocols Development Team'</p>
         <div className="about-header">Skills</div>
-        <p className="about-information">C#, C, Java, Kotlin, Python, Lua, JavaScript, TypeScript, PHP, HTML, CSS, SQL, ReactJS, NodeJS, ExpressJS, Laravel, Axios, Cors, JSDOM, Router, Webpack, Unity, Love2D, GameMaker 2, RPGMaker VXAce, PyGame, Android Studio, React Native, Object Oriented Programming/Design, Data Structures and Algorithms, Database Management, MVC, VDOM, REST API's</p>
+        <p className="about-information">ReactJS, NodeJS, ExpressJS, MongoDB, Mongoose, Redux.js, AJAX, Heroku, C#, C, Java, Kotlin, Python, Lua, JavaScript, TypeScript, PHP, HTML, CSS, SCSS, SASS, SQL, Laravel, Axios, Cors, JSDOM, Router, Webpack, Unity, Love2D, GameMaker 2, RPGMaker VXAce, PyGame, Android Studio, React Native, Object Oriented Programming/Design, Data Structures and Algorithms, Database Management, MVC, VDOM, REST API's</p>
       </div>
     </div>
   )

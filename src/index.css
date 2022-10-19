@@ -79,8 +79,8 @@ html{
 
 .project-uses {
   font-weight: bolder;
-  color: orangered;
-  -webkit-text-stroke: 1px red;
+  color: rgb(255, 180, 42);
+  text-shadow:1px 1px 3px #000;
 }
 
 .project-description {
@@ -121,6 +121,7 @@ html{
   z-index: -1;
   left: 0; 
   right: 0; 
+  box-shadow:1px 1px 5px #000;
   margin-left: auto; 
   margin-right: auto; 
   border: 1px solid black;
@@ -283,6 +284,12 @@ ul{
   }
 }
 
+@media (max-width:400px){
+	.profile-links{
+		font-size:5vw;
+	}
+}
+
 @media (min-width: 1280px){
   .navbar {
     padding: 0.5em;
@@ -291,7 +298,7 @@ ul{
 
   .navbar-title {
    font-size: 3vw;
-   flex: 1;
+   flex: 1 1;
   }
 
   .profile-picture {
@@ -308,7 +315,7 @@ ul{
   }
 
   ul {
-    flex: 3;
+    flex: 3 1;
   }
 
   .profile-link, li {
@@ -342,7 +349,7 @@ ul{
   .about-profile {
     display: flex;
     align-items: center;
-    font-size: 1.25em;
+    font-size: 1.45em;
     border: 5px solid whitesmoke;
     border-radius: 0.5em;
     color: white;

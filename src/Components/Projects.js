@@ -1,7 +1,7 @@
 import TwitterFilter from "../Resources/Twitter-Filter.png"
 import DiceGame from "../Resources/Dice-Game.png"
 import ObstacleRush from "../Resources/Obstacle-Rush.png"
-import ModzeeTest from "../Resources/Modzee-Test.jpg"
+import ListMaker from "../Resources/List-Maker.png"
 import FinalOdyssey from "../Resources/Final-Odyssey.png"
 import SailorsQuest from "../Resources/Sailors-Quest.png"
 import { useId } from "react"
@@ -18,6 +18,14 @@ const Projects = () => {
       id: useId()
     },
     {
+      name: "List Maker (2022)",
+      description: "A website where you can create custom lists and save them to the database where they can be loaded later on, hosted on heroku and netlify and database utilizes MongoDB and Mongoose.",
+      uses: "MERN Stack, ReduxJS, SASS",
+      img: ListMaker,
+      href: "https://github.com/Dav-Sandhu/List-Maker-Version-2",
+      id: useId()
+    }, 
+    {
       name: "Dice of Daedalus (2022)",
       description: "This is a strategy game that me and two of my friends developed over a two day weekend for a Game Jam where the theme was 'Roll of the Dice'. You have to match the dice faces with the floor tiles for each labelled tile to proceed to the next level.",
       uses: "Lua, Love2D",
@@ -33,14 +41,6 @@ const Projects = () => {
       href: "https://github.com/Dav-Sandhu/Obstacle-Rush",
       id: useId()
     },
-    {
-      name: "Modzee Test (2021)",
-      description: "A test website made to mimic a professional website.",
-      uses: "Laravel, PHP",
-      img: ModzeeTest,
-      href: "https://github.com/Dav-Sandhu/ModzeeTest",
-      id: useId()
-    }, 
     {
       name: "Final Odyssey (2020)",
       description: "password to access: 123123, the game is a survival strategy game that takes place at the end of the Universe where a great calamity chases you and your goal is to survive for as long as possible. The game was about 90% completed and was part of a 1 month game development challenge I took part in",
