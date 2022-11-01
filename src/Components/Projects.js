@@ -3,7 +3,7 @@ import DiceGame from "../Resources/Dice-Game.png"
 import ObstacleRush from "../Resources/Obstacle-Rush.png"
 import ListMaker from "../Resources/List-Maker.png"
 import FinalOdyssey from "../Resources/Final-Odyssey.png"
-import SailorsQuest from "../Resources/Sailors-Quest.png"
+import CameraApp from "../Resources/Camera-App.png"
 import { useId } from "react"
 
 const Projects = () => {
@@ -24,7 +24,7 @@ const Projects = () => {
       img: ListMaker,
       href: "https://github.com/Dav-Sandhu/List-Maker-Version-2",
       id: useId()
-    }, 
+    },
     {
       name: "Dice of Daedalus (2022)",
       description: "This is a strategy game that me and two of my friends developed over a two day weekend for a Game Jam where the theme was 'Roll of the Dice'. You have to match the dice faces with the floor tiles for each labelled tile to proceed to the next level.",
@@ -33,6 +33,14 @@ const Projects = () => {
       href: "https://avandolder.itch.io/dice-of-daedalus",
       id: useId()
     },
+	{
+	  name: "Custom Camera App (2022)",
+	  description: "A custom camera application for Android devices where you can take pictures with both the front and back cameras and save the pictures taken to your library.",
+	  uses: "React Native, Expo",
+	  img: CameraApp,
+	  href: "https://github.com/Dav-Sandhu/Custom-Camera-App",
+	  id: useId()
+	},
     {
       name: "Obstacle Rush (2021)",
       description: "A game where you dodge falling obstacles which was created as a final project for my Mobile application course at University",
@@ -47,14 +55,6 @@ const Projects = () => {
       uses: "GameMaker 2",
       img: FinalOdyssey,
       href: "https://boomnack.itch.io/final-odyssey",
-      id: useId()
-    },
-    {
-      name: "A Sailor's Quest (2020)",
-      description: "Final projects for my 'Video Game Development Course', it is a 2.5D platformer where you avoid enemies and complete some stages before a final boss.",
-      uses: "Unity, C#",
-      img: SailorsQuest,
-      href: "https://github.com/Dav-Sandhu/A-Sailors-Quest",
       id: useId()
     }
   ]
