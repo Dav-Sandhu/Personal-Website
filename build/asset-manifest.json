@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Personal-Website/static/css/main.296ae0d5.css",
+    "main.js": "/Personal-Website/static/js/main.d22fc3a8.js",
+    "static/media/Camera-App.png": "/Personal-Website/static/media/Camera-App.ae62e5272160706bca8f.png",
+    "static/media/Final-Odyssey.png": "/Personal-Website/static/media/Final-Odyssey.46bd861ced80f698d614.png",
+    "static/media/Obstacle-Rush.png": "/Personal-Website/static/media/Obstacle-Rush.b583a35bae95deab74b9.png",
+    "static/media/me.png": "/Personal-Website/static/media/me.526101949d6aba9ee2f2.png",
+    "static/media/List-Maker.png": "/Personal-Website/static/media/List-Maker.73c605ec3f0d30cef093.png",
+    "static/media/Dice-Game.png": "/Personal-Website/static/media/Dice-Game.34ccc7eb1ea487da61d6.png",
+    "static/media/Twitter-Filter.png": "/Personal-Website/static/media/Twitter-Filter.7e800c041e0758319958.png",
+    "static/media/me.jpg": "/Personal-Website/static/media/me.84de4782b4666a3d07fd.jpg",
+    "index.html": "/Personal-Website/index.html",
+    "main.296ae0d5.css.map": "/Personal-Website/static/css/main.296ae0d5.css.map",
+    "main.d22fc3a8.js.map": "/Personal-Website/static/js/main.d22fc3a8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.296ae0d5.css",
+    "static/js/main.d22fc3a8.js"
+  ]
+}
