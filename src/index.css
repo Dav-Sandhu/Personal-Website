@@ -89,7 +89,7 @@ html{
   color: black;
 }
 
-.navbar-item:hover{
+.navbar-item:hover, .navbar-item:active{
   color: yellow;
   text-shadow: 2px 2px 3px black;
 }
@@ -162,7 +162,7 @@ ul{
   list-style-type: none;
 }
 
-.profile-link:hover {
+.profile-link:hover, .profile-link:active {
   color: white;
   background-color: black;
 }
@@ -332,7 +332,7 @@ ul{
     transition: all .15s ease-in-out; 
   }
 
-  .project:hover {
+  .project:hover, .project:active {
     transform: scale(1.1);
     background-color: yellow;
   }
