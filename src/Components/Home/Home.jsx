@@ -13,7 +13,7 @@ const Home = () => {
             </div>
             <div className="row justify-content-center">
                 <div className="links">
-                    <a href="../../Resources/Resume.pdf" download>Resume</a>
+                    <a href="./Resume.pdf" download>Resume</a>
                     <a href="https://www.linkedin.com/in/davanjit-sandhu-496200211/">LinkedIn</a>
                     <a href="https://github.com/Dav-Sandhu">Github</a>
                     <a href="https://itch.io/profile/boomnack">Itch.io</a>
