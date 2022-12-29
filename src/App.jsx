@@ -3,6 +3,7 @@ import Home from './Components/Home/Home'
 import Projects from './Components/Projects/Projects'
 import About from './Components/About/About'
 import Footer from './Components/Footer/Footer'
+import './App.scss'
 
 import { useRef, useEffect, useState } from "react"
 

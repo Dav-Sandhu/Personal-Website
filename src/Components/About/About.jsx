@@ -9,11 +9,11 @@ const About = () => {
             <h1 className="title-about text-center">About Me</h1>
             <div className="personal-info-box">
                 <div className="row about-content">
-                    <div className="col-3 about-left">
+                    <div id="about-left" className="col-3">
                         <img src={pic} className="about-image" />
                     </div>
 
-                    <div className="col about-right text-wrap">
+                    <div id="about-right" className="col text-wrap">
                         <div className="about-summary">
                             Graduated from the University of Windsor with a Bachelor of Computer Science and a minor in Political Science in 2021.
                             Worked at Gao Tek Inc. as a <i>"Software Development Intern"</i> from August 2021 to November 2021.

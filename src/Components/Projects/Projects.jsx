@@ -64,10 +64,10 @@ const Projects = () => {
     return(
         <div className="mt-5 mb-5">
             <h1 className="text-center">Projects</h1>
-            <div className="projects row">
+            <div id="projects" className="row">
                 {projects.map(p => {
                 return(
-                    <a href={p.href} className="project col-3" key={p.id}>
+                    <a href={p.href} id="project" className="col-3" key={p.id}>
                         <img src={p.img} alt="unavailable" className="project-picture"/>
                         <div className="project-name">{p.name}</div>
                         <div className="project-uses">{`Uses: ${p.uses}`}</div>
