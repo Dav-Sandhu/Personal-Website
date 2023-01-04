@@ -1,8 +1,8 @@
+@import '../../App.scss';
+
 .footer{
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexbox(center, center);
 
     height: 10vw;
     width: 100%;

@@ -1,1 +1,7 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
+@mixin flexbox($jc, $ai) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+}

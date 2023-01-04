@@ -1,12 +1,13 @@
+@import '../../App.scss';
+
 #projects {
-    display: flex;
+    @include flexbox(space-around, auto);
     flex-wrap: wrap;
-    justify-content:space-around;
 }
 
 #project {
     background-color: #212529;
-    display: flex;
+    @include flexbox(auto, auto);
     flex-direction: column;
     overflow: hidden;
     align-items: center;
@@ -21,6 +22,11 @@
     }
 
     @media(max-width: 768px){
+        width: 60vw;
+        height: 60vw;
+    }
+
+    @media(max-width: 576px){
         width: 80vw;
         height: 80vw;
     }
@@ -31,10 +37,8 @@
     }
       
     .projects-content {
-        display: flex;
+        @include flexbox(center, center);
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         box-shadow: 0px 0px 4px black;
         margin-top: 2em;
         padding-top: 1em;
@@ -89,12 +93,13 @@
             font-size: 0.75em;
         }
 
-        @media(max-width: 768px) and (min-width: 576px){
+        @media(max-width: 768px){
             font-size: 2vw;
+            overflow-y: scroll;
         }
 
         @media(max-width: 576px){
-            overflow-y: scroll;
+            font-size: 3vw;
         }
     }
 
