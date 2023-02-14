@@ -1,3 +1,4 @@
+import PoemGenerator from "../../Resources/OpenAI-Poem-Generator.png"
 import TwitterFilter from "../../Resources/Twitter-Filter.png"
 import DiceGame from "../../Resources/Dice-Game.png"
 import ObstacleRush from "../../Resources/Obstacle-Rush.png"
@@ -10,6 +11,14 @@ import { useId } from "react"
 const Projects = () => {
 
     const projects = [
+        {
+          name: "Poem Generator (2023)",
+          description: "generates a poem based off a given prompt using ChatGPT in the background.",
+          uses: "OpenAI, React.js, Node.js, Bootstrap",
+          img: PoemGenerator,
+          href: "https://github.com/Dav-Sandhu/OpenAI-Poem-Generator",
+          id: useId()
+        },
         {
           name: "Twitter Filter App (2022)",
           description: "A filter application that only shows you tweets and nothing else by fetching tweets from specified users which you can add/remove from the list which is stored on your local computer as a JSON file. It was made because I wanted to filter out all of the unnecessary content meant to keep your engaged on Twitter.",
@@ -48,14 +57,6 @@ const Projects = () => {
           uses: "Android Studio, Kotlin",
           img: ObstacleRush,
           href: "https://github.com/Dav-Sandhu/Obstacle-Rush",
-          id: useId()
-        },
-        {
-          name: "Final Odyssey (2020)",
-          description: "password to access: 123123, the game is a survival strategy game that takes place at the end of the Universe where a great calamity chases you and your goal is to survive for as long as possible. The game was about 90% completed and was part of a 1 month game development challenge I took part in",
-          uses: "GameMaker 2",
-          img: FinalOdyssey,
-          href: "https://boomnack.itch.io/final-odyssey",
           id: useId()
         }
     ]
