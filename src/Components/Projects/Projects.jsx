@@ -4,13 +4,23 @@ import DiceGame from "../../Resources/Dice-Game.png"
 import ObstacleRush from "../../Resources/Obstacle-Rush.png"
 import ListMaker from "../../Resources/List-Maker.png"
 import FinalOdyssey from "../../Resources/Final-Odyssey.png"
+import SailorsQuest from "../../Resources/Sailors-Quest.png"
 import CameraApp from "../../Resources/Camera-App.png"
+import KanbanBoard from "../../Resources/Kanban-Board.png"
 import './Projects.scss'
 import { useId } from "react"
 
 const Projects = () => {
 
     const projects = [
+        {
+          name: "Kanban Board (2023)",
+          description: "A kanban board where you can drag and drop cards into different columns.",
+          uses: "React.js, React-DND",
+          img: KanbanBoard,
+          href: "https://github.com/Dav-Sandhu/Kanban-Board",
+          id: useId()
+        },
         {
           name: "Poem Generator (2023)",
           description: "generates a poem based off a given prompt using ChatGPT in the background.",
@@ -57,6 +67,21 @@ const Projects = () => {
           uses: "Android Studio, Kotlin",
           img: ObstacleRush,
           href: "https://github.com/Dav-Sandhu/Obstacle-Rush",
+          id: useId()
+        },
+        {
+          name: "Final Odyssey (2020)",
+          description: "password to access: 123123, the game is a survival strategy game that takes place at the end of the Universe where a great calamity chases you and your goal is to survive for as long as possible. The game was about 90% completed and was part of a 1 month game development challenge I took part in",
+          uses: "Game Maker 2",
+          img: FinalOdyssey,
+          href: "https://boomnack.itch.io/final-odyssey",
+          id: useId()
+        },
+        {
+          name: "A Sailor's Quest (2020)",
+          description: "Final project for my video game development course, it's a 2.5D platformer where you can dodge or fight enemies to move on to the next stage.",
+          img: SailorsQuest,
+          href: "https://github.com/Dav-Sandhu/A-Sailors-Quest",
           id: useId()
         }
     ]
