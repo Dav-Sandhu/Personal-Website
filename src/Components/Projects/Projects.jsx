@@ -80,6 +80,7 @@ const Projects = () => {
         {
           name: "A Sailor's Quest (2020)",
           description: "Final project for my video game development course, it's a 2.5D platformer where you can dodge or fight enemies to move on to the next stage.",
+          uses: "Unity, C#",
           img: SailorsQuest,
           href: "https://github.com/Dav-Sandhu/A-Sailors-Quest",
           id: useId()
