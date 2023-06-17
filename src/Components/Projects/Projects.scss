@@ -1,5 +1,6 @@
 @import '../../App.scss';
 
+//Using id instead of class to ensure that it doesn't interfere with the Bootstrap styling.
 #projects {
     @include flexbox(space-around, auto);
     flex-wrap: wrap;
@@ -103,6 +104,7 @@
         }
     }
 
+    //Hides the scrollbar on each project box as it does not fit with the theming.
     .project-description::-webkit-scrollbar {
         width: 0;
         background: transparent; 
@@ -110,6 +112,7 @@
         -ms-overflow-style: none;
     }
 
+    //highlights project that is being hovered over.
     &:hover, &:active {
         transform: scale(1.1);
         background-color: rgb(190, 190, 255);

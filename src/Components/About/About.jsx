@@ -3,6 +3,7 @@ import SkillsInfoButton from "./SkillsInfoButton"
 import './About.scss'
 import pic from '../../Resources/about-me-picture.png'
 
+//Used to showcase more information on myself including on my current skillset.
 const About = () => {
     return(
         <div className="container">
@@ -30,7 +31,11 @@ const About = () => {
                     </div>
                 </div>
             </div>
+
+            {/*A Hover over button to showcase information about the table itself.*/}
             <h2>My Current Skillset <SkillsInfoButton /></h2>
+            
+            {/*Creates a custom skills table using BootstrapV5.0*/}
             <table className="table table-hover table-striped table-bordered">
                 <thead>
                     <tr>
@@ -40,6 +45,8 @@ const About = () => {
                     </tr>
                 </thead>
                 <tbody>
+
+                    {/*Maps out each skill from the json file into the table.*/}
                     {skills.skills.map(row => {
                         return (
                             <tr key={row[0]}>

@@ -12,6 +12,7 @@ import { useId } from "react"
 
 const Projects = () => {
 
+  //An array of objects that contain information about each project.
     const projects = [
         {
           name: "Kanban Board (2023)",
@@ -92,6 +93,8 @@ const Projects = () => {
         <div className="mt-5 mb-5">
             <h1 className="text-center">Projects</h1>
             <div id="projects" className="row">
+              
+              {/*Maps out the projects.*/}
                 {projects.map(p => {
                 return(
                     <a href={p.href} id="project" className="col-3" key={p.id}>

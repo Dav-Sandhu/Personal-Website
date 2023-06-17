@@ -1,5 +1,6 @@
 import './Footer.scss'
 
+//For any leftover information on the website itself.
 const Footer = () => {
     return(
         <div className="footer">

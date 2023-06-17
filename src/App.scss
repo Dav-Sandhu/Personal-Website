@@ -1,7 +1,19 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
+//method that is called by various components to create a flexbox display.
 @mixin flexbox($jc, $ai) {
     display: flex;
     justify-content: $jc;
     align-items: $ai;
 }
+
+/*
+    Many elements will have @media tags with the sizes 576px, 768px, 992px, and 1200px.
+    The sizes were a combination of the most popular device sizes and of what worked best
+    for this project in particular. This is used for responsive design to ensure that no 
+    matter what your device is, that it can run the website as intended.
+    
+    @media (min-width: 576px){
+        ...
+    }
+*/

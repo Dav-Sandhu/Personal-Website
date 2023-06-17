@@ -4,13 +4,7 @@
 
     margin-top: 5em;
 
-    .home-title{
-        font-weight: bold;
-        -webkit-text-stroke: 1px rgb(0, 0, 80);
-        text-shadow: 1px 1px 3px black;
-        color:rgb(100, 100, 255);
-    }
-
+    //Creates an outer circle around the profile image.
     .main-profile{
 
         @include flexbox(center, center);
@@ -48,6 +42,7 @@
             border-radius: 50%;
         }
 
+        //The background image is a custom linear gradient of various colors that spin around with the animation
         .bg-img{
 
             height: 100%;
@@ -88,6 +83,7 @@
         }
     }
 
+    //Creates a stylized box around the buttons.
     .links{
 
         @include flexbox(space-between, center);
@@ -122,6 +118,7 @@
             font-size: 1.4em;
         }
 
+        //Used to stylize the links into black 'buttons' that turn white when hovered over.
         a{
             @include flexbox(center, center);
 
@@ -138,6 +135,7 @@
     }
 }
 
+//used to rotate the selected element in a circular motion
 @keyframes profile-bg-animation {
     0% {
       background-position: top;

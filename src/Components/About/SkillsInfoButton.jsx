@@ -6,6 +6,7 @@ const SkillsInfoButton = () => {
     const popoverRef = useRef()
 
     useEffect(() => {
+        //Uses the bootstrap provided popover element to create a custom popover.
         new bootstrap.Popover(popoverRef.current, {
             html: true,
             content: "★★★★★:<br>Know the technology really well alongside it's core concepts.<br>" + 
@@ -15,8 +16,9 @@ const SkillsInfoButton = () => {
             "★:<br>Complete beginner, haven't gone out of my way to learn it yet.",
             title: "Proficiency Ratings"
         })
-      })
+    })
 
+    //Used to create the svg icon for the the information button.
     return(
         <svg 
             ref={popoverRef}
