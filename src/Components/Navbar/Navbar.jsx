@@ -26,13 +26,13 @@ const Navbar = ({setScreen}) => {
                         </span>
                     </li>
                     <li className="nav-item">
-                        <span className="nav-link" onClick={() => setScreen(prev => ["projects", !prev[1]])}>
-                            Projects
+                        <span className="nav-link" onClick={() => setScreen(prev => ["about", !prev[1]])}>
+                            About
                         </span>
                     </li>
                     <li className="nav-item">
-                        <span className="nav-link" onClick={() => setScreen(prev => ["about", !prev[1]])}>
-                            About
+                        <span className="nav-link" onClick={() => setScreen(prev => ["projects", !prev[1]])}>
+                            Projects
                         </span>
                     </li>
                 </ul>

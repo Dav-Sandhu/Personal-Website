@@ -39,12 +39,12 @@ function App() {
           <Navbar setScreen={setScreen} />
           <Home />
 
-          <span ref={projectsPointer}>
-              <Projects />
-          </span>
-
           <span ref={aboutPointer}>
               <About />
+          </span>
+
+          <span ref={projectsPointer}>
+              <Projects />
           </span>
 
           <Footer />

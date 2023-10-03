@@ -6,7 +6,7 @@ import pic from '../../Resources/about-me-picture.png'
 //Used to showcase more information on myself including on my current skillset.
 const About = () => {
     return(
-        <div className="container">
+        <div className="container about-section">
             <h1 className="title-about text-center">About Me</h1>
             <div className="personal-info-box">
                 <div className="row about-content">
