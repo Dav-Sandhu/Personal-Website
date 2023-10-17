@@ -1,3 +1,4 @@
+//import OptimizedImage from '../OptimizedImage'
 import profile_pic from '../../Resources/main-picture.jpg'
 import "./Home.scss"
 
@@ -16,7 +17,8 @@ const Home = () => {
                 */}
                 <div className="main-profile">
                     <span className="bg-img"></span>
-                    <img src={profile_pic} />
+                    <img src={profile_pic} className="bg-profile-img" />
+                    {/*<OptimizedImage src={profile_pic} hash="L4C5hzIV0d}@3+WW:+oz00t6^jE2" classId="bg-profile-img" />*/}
                 </div>
             </div>
             <div className="row justify-content-center">

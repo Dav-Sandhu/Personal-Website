@@ -1,7 +1,8 @@
 import skills from "./skills.json"
 import SkillsInfoButton from "./SkillsInfoButton"
+import OptimizedImage from "../OptimizedImage"
 import './About.scss'
-import pic from '../../Resources/about-me-picture.png'
+import pic from "../../Resources/about-me-picture.png"
 
 //Used to showcase more information on myself including on my current skillset.
 const About = () => {
@@ -11,7 +12,8 @@ const About = () => {
             <div className="personal-info-box">
                 <div className="row about-content">
                     <div id="about-left" className="col-3">
-                        <img src={pic} className="about-image" />
+                        {/*unoptimized: <img src={pic} className="about-image" />*/}
+                        <OptimizedImage src={pic} hash="L9BgGMNG0:-UI_xv?wI90JRivy%M" classId="about-image"/>
                     </div>
 
                     <div id="about-right" className="col text-wrap">
