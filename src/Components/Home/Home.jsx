@@ -1,3 +1,5 @@
+import SEO from '../SEO'
+
 //import OptimizedImage from '../OptimizedImage'
 import profile_pic from '../../Resources/main-picture.jpg'
 import "./Home.scss"
@@ -6,6 +8,15 @@ import "./Home.scss"
 const Home = () => {
     return(
         <div className='home container'>
+            {/*
+                will optimize the webpage to ensure that it can be found using a search algorithm.
+            */}
+            <SEO 
+                title="Davanjit Sandhu's Website" 
+                description="Used to showcase my recent work and where to find me elsewhere." 
+                name="Davanjit Sandhu" 
+                type="article" 
+            />
             {/*
                 Uses bootstrapV5.0 to position each element as needed.
             */}

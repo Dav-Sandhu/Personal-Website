@@ -1,3 +1,5 @@
+import { HelmetProvider } from 'react-helmet-async'
+
 import Navbar from './Components/Navbar/Navbar'
 import Home from './Components/Home/Home'
 import Projects from './Components/Projects/Projects'
@@ -6,6 +8,9 @@ import Footer from './Components/Footer/Footer'
 import './App.scss'
 
 import { useRef, useEffect, useState } from "react"
+
+//required for HelmetProvider which is used to prevent leakage.
+const helmetContext = {}
 
 //The 'App' component is the main hub where all other elements are compiled together into one functional webpage.
 function App() {
@@ -35,6 +40,7 @@ function App() {
       The screen setting method is sent to the custom navbar to handle the update.    
     */
     return(
+      <HelmetProvider context={helmetContext}>
         <span className='App' ref={homePointer}>
           <Navbar setScreen={setScreen} />
           <Home />
@@ -49,6 +55,7 @@ function App() {
 
           <Footer />
         </span>
+      </HelmetProvider>
     )
 }
 
