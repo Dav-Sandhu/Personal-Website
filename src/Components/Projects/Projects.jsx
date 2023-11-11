@@ -23,7 +23,7 @@ const Projects = () => {
         },
         {
           name: "Poem Generator (2023)",
-          description: "generates a poem based off a given prompt using ChatGPT in the background.",
+          description: "Generates a poem and related image based off a given prompt using ChatGPT in the background.",
           uses: "OpenAI, React.js, Node.js, Bootstrap",
           img: PoemGenerator,
           hash: "LTKUK6D$x]%2_NofV?bH?vxbaeR*",
@@ -81,8 +81,7 @@ const Projects = () => {
                         {/*unoptimized: <img src={p.img} alt="unavailable" className="project-picture" />*/}
                         <OptimizedImage src={p.img} hash={p.hash} classId="project-picture" />
                         <div className="project-name">{p.name}</div>
-                        <div className="project-uses">{`Uses: ${p.uses}`}</div>
-                        <div className="project-description">{p.description}</div>
+                        <div className="project-description">{p.description} ({`Uses: ${p.uses}`})</div>
                     </a>
                 )
                 })}
