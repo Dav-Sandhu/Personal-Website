@@ -16,7 +16,6 @@
         margin: 1em;
         text-decoration: none;
         transition: all .15s ease-in-out; 
-        box-shadow: 1px 1px 5px grey;
         
         @media(max-width: 1249px){
             width: 40vw;
@@ -67,6 +66,7 @@
             overflow: hidden;
             color: black;
             display: inline;
+            text-shadow: 1px 1px 3px grey;
     
             @media(max-width: 2000px){
                 font-size: 1.1em;
@@ -106,9 +106,9 @@
         //highlights project that is being hovered over.
         &:hover, &:active {
     
-            @media(max-width: 768px){      
-                box-shadow: 1px 1px 5px grey;
+            box-shadow: 1px 1px 5px grey;
 
+            @media(max-width: 768px){      
                 .project-picture, .project-name{
                     border-color: grey;
                 }
