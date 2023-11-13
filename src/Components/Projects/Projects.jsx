@@ -1,4 +1,5 @@
 import OptimizedImage from "../OptimizedImage"
+import {images} from "./Images"
 import list from "./Projects.json"
 import './Projects.scss'
 
@@ -12,7 +13,7 @@ const Projects = () => {
         return(
           <a href={p.href} id="project" className="col-3" key={p.hash}>
             {/*unoptimized: <img src={p.img} alt="unavailable" className="project-picture" />*/}
-            <OptimizedImage src={p.img} hash={p.hash} classId="project-picture" />
+            <OptimizedImage src={images[p.img]} hash={p.hash} classId="project-picture" />
             <div className="project-name">{p.name}</div>
             <div className="project-description">{p.description} ({`Uses: ${p.uses}`})</div>
           </a>
