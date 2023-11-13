@@ -4,16 +4,19 @@ import * as bootstrap from 'bootstrap'
 const SkillsInfoButton = () => {
 
     const popoverRef = useRef()
+    const content = `
+        ★★★★★:<br aria-label='5 stars'>Know the technology really well alongside it's core concepts.</br>
+        ★★★★:<br aria-label='4 stars'>Know the technology well enough to perform most tasks.</br>
+        ★★★:<br aria-label='3 stars'>Know the basics and can do most simple tasks.</br>
+        ★★:<br aria-label='2 stars'>Know very little about the technology may have looked into it, but haven't delved deep enough.</br>
+        ★:<br aria-label='1 star'>Complete beginner, haven't gone out of my way to learn it yet.</br>
+    `
 
     useEffect(() => {
         //Uses the bootstrap provided popover element to create a custom popover.
         new bootstrap.Popover(popoverRef.current, {
             html: true,
-            content: "★★★★★:<br>Know the technology really well alongside it's core concepts.<br>" + 
-            "★★★★:<br>Know the technology well enough to perform most tasks.<br>" + 
-            "★★★:<br>Know the basics and can do most simple tasks.<br>" + 
-            "★★:<br>Know very little about the technology may have looked into it, but haven't delved deep enough.<br>" + 
-            "★:<br>Complete beginner, haven't gone out of my way to learn it yet.",
+            content: content,
             title: "Proficiency Ratings"
         })
     })
@@ -24,6 +27,8 @@ const SkillsInfoButton = () => {
             ref={popoverRef}
             data-bs-trigger="focus" 
             data-bs-toggle="popover"
+            focusable={true}
+            aria-label="Skill ratings explanation"
             xmlns="http://www.w3.org/2000/svg" 
             width="16" 
             height="16" 

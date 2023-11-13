@@ -4,16 +4,25 @@ import OptimizedImage from "../OptimizedImage"
 import './About.scss'
 import pic from "../../Resources/about-me-picture.png"
 
+//for screen readers as some are unable to read the star symbols.
+const stars = {
+    "★★★★★": "five stars",
+    "★★★★": "four stars",
+    "★★★": "three stars",
+    "★★": "two stars",
+    "★": "one star"
+}
+
 //Used to showcase more information on myself including on my current skillset.
 const About = () => {
     return(
         <div className="container about-section">
-            <h1 className="title-about text-center">About Me</h1>
+            <h1 className="title-about text-center" aria-label="section heading: about me">About Me</h1>
             <div className="personal-info-box">
                 <div className="row about-content">
-                    <div id="about-left" className="col-3">
+                    <div id="about-left" className="col-3" role="img">
                         {/*unoptimized: <img src={pic} className="about-image" />*/}
-                        <OptimizedImage src={pic} hash="L9BgGMNG0:-UI_xv?wI90JRivy%M" classId="about-image"/>
+                        <OptimizedImage src={pic} hash="L9BgGMNG0:-UI_xv?wI90JRivy%M" classId="about-image" aria="Picture of Davanjit Sandhu, graduation 2012"/>
                     </div>
 
                     <div id="about-right" className="col text-wrap">
@@ -35,7 +44,7 @@ const About = () => {
             </div>
 
             {/*A Hover over button to showcase information about the table itself.*/}
-            <h2>My Current Skillset <SkillsInfoButton /></h2>
+            <h2 aria-label="About Me section sub-heading">My Current Skillset <SkillsInfoButton /></h2>
             
             {/*Creates a custom skills table using BootstrapV5.0*/}
             <table className="table table-hover table-striped table-bordered">
@@ -54,7 +63,7 @@ const About = () => {
                             <tr key={row[0]}>
                                 {row.map(i => {
                                     return(
-                                    <td key={i}>
+                                    <td key={i} aria-label={stars[i] || i}>
                                         {i}
                                     </td>
                                 )})}

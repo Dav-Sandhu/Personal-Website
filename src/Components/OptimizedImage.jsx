@@ -1,7 +1,7 @@
 import { Blurhash } from "react-blurhash"
 import { useState, useEffect } from "react"
 
-const OptimizedImage = ({src, hash, classId}) => {
+const OptimizedImage = ({src, hash, classId, aria}) => {
     const [loaded, setLoaded] = useState(false)
 
     //will create the image and then set loaded to true to switch back the image
@@ -27,7 +27,7 @@ const OptimizedImage = ({src, hash, classId}) => {
                     punch={1}
                 />
             ) : (
-                <img src={src} alt="unavailable" className={classId} />
+                <img src={src} alt="unavailable" className={classId} aria-label={aria} />
             )}
         </>
     )

@@ -19,18 +19,18 @@ const Navbar = ({setScreen}) => {
 
             <div className="collapse navbar-collapse ms-2" id="navContent">
                 <ul className="navbar-nav ms-auto">
-                    <li className="nav-item active">
+                    <li className="nav-item active" role="button">
                         {/* used to update selected screen element, the second argument is to make sure it updates no matter what. */}
                         <span className="nav-link" onClick={() => setScreen(prev => ["home", !prev[1]])}>
                             Home
                         </span>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item" role="button">
                         <span className="nav-link" onClick={() => setScreen(prev => ["about", !prev[1]])}>
                             About
                         </span>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item" role="button">
                         <span className="nav-link" onClick={() => setScreen(prev => ["projects", !prev[1]])}>
                             Projects
                         </span>
