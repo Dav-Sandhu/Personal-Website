@@ -1,6 +1,5 @@
 @import '../../App.scss';
 
-//Using id instead of class to ensure that it doesn't interfere with the Bootstrap styling.
 #projects {
 
     @include flexbox(center, center);
@@ -9,6 +8,27 @@
         width: 1280px;
         height: 720px;
         background-color: whitesmoke;
+
+        /*
+            Bootstrap stops decorating the links on smaller devices as it gets rid of the title so 
+            this ensures that it's still appears correctly.
+        */
+        :link, :visited{
+            text-decoration: none; 
+        }
+
+        //Custom title which only displays on smaller devices.
+        .project-title{
+            display: none;
+            position: absolute;
+            width: 100%;
+            bottom: 0px;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px black;
+            background-color: rgba(184, 184, 184, 0.5);
+        }
 
         .carousel-caption{
             text-shadow: 2px 2px 5px black;
@@ -22,6 +42,7 @@
             height: 720px;
         }
 
+        //Better defines the control buttons as they can be hard to see sometimes.
         .carousel-control-prev-icon, .carousel-control-next-icon{
             background-color: rgba(184, 184, 184, 0.7);
         }
@@ -30,6 +51,7 @@
             width: 1050px;
             height: 590px;
 
+            //Carousel requires a precise height for the image otherwise it's slightly off position.
             .project-image{
                 height: 590px;
             }
@@ -53,12 +75,18 @@
             }
         }
 
-        @media(max-width: 768px){
+        @media(max-width: 767px){
             width: 500px;
             height: 281px;
 
             .project-image{
                 height: 281px;
+            }
+
+            //Once bootstrap stops supporting captions the custom title is displayed.
+            .project-title{
+                display: block;
+                font-size: 1.5em;
             }
         }
 
@@ -69,7 +97,12 @@
             .project-image{
                 height: 45vw;
             }
+
+            .project-title{
+                font-size: 4.5vw;
+            }
         }
     }
 }
+
 

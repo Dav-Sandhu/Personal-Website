@@ -4,7 +4,7 @@ import OptimizedImage from "../OptimizedImage"
 import './About.scss'
 import pic from "../../Resources/about-me-picture.png"
 
-//for screen readers as some are unable to read the star symbols.
+//For screen readers as some are unable to read the star symbols.
 const stars = {
     "★★★★★": "five stars",
     "★★★★": "four stars",
@@ -17,14 +17,25 @@ const stars = {
 const About = () => {
     return(
         <div className="container about-section">
+
+            {/*About section heading*/}
             <h1 className="title-about text-center" aria-label="section heading: about me">About Me</h1>
+
+            {/*
+               A box that is meant to serve as a brief introduction to myself. The left side of the box contains 
+               an image, whereas the right side contains a short introduction.
+            */}
             <div className="personal-info-box">
                 <div className="row about-content">
+
+                    {/*Left side image.*/}
                     <div id="about-left" className="col-3" role="img">
-                        {/*unoptimized: <img src={pic} className="about-image" />*/}
+
+                        {/*Unoptimized: <img src={pic} className="about-image" />*/}
                         <OptimizedImage src={pic} hash="L9BgGMNG0:-UI_xv?wI90JRivy%M" classId="about-image" aria="Picture of Davanjit Sandhu, graduation 2012"/>
                     </div>
 
+                    {/*Right side introduction.*/}
                     <div id="about-right" className="col text-wrap">
                         <div className="about-summary">
                             Graduated from the University of Windsor with a Bachelor of Computer Science and a minor in Political Science in 2021.
@@ -46,7 +57,7 @@ const About = () => {
             {/*A Hover over button to showcase information about the table itself.*/}
             <h2 aria-label="About Me section sub-heading">My Current Skillset <SkillsInfoButton /></h2>
             
-            {/*Creates a custom skills table using BootstrapV5.0*/}
+            {/*Creates a custom skills table using Bootstrap with the following three headings.*/}
             <table className="table table-hover table-striped table-bordered">
                 <thead>
                     <tr>

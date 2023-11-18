@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 const OptimizedImage = ({src, hash, classId, aria}) => {
     const [loaded, setLoaded] = useState(false)
 
-    //will create the image and then set loaded to true to switch back the image
+    //Imports the image and sets loaded to true once the image is finished loading.
     useEffect(() => {
         const img = new Image()
         img.onload = () => {
@@ -13,7 +13,7 @@ const OptimizedImage = ({src, hash, classId, aria}) => {
         img.src = src
     }, [src])
 
-    //the blurhash image is a stand-in until the image is loaded
+    //The blurhash image is a stand-in until the image is loaded.
     return(
         <>
             {!loaded ? (

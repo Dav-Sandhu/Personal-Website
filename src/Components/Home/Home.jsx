@@ -1,6 +1,4 @@
 import SEO from '../SEO'
-
-//import OptimizedImage from '../OptimizedImage'
 import profile_pic from '../../Resources/main-picture.jpg'
 import "./Home.scss"
 
@@ -9,7 +7,7 @@ const Home = () => {
     return(
         <div className='home container'>
             {/*
-                will optimize the webpage to ensure that it can be found using a search algorithm.
+                Optimizes the webpage metadata to ensure that it can be found using a search algorithm.
             */}
             <SEO 
                 title="Davanjit Sandhu's Website" 
@@ -18,7 +16,7 @@ const Home = () => {
                 type="article" 
             />
             {/*
-                Uses bootstrapV5.0 to position each element as needed.
+                Uses Bootstrap to position each element as needed.
             */}
             <div className="row justify-content-center m-3">
 
@@ -29,7 +27,6 @@ const Home = () => {
                 <div className="main-profile">
                     <span className="bg-img"></span>
                     <img src={profile_pic} className="bg-profile-img" aria-label="Profile Picture" />
-                    {/*<OptimizedImage src={profile_pic} hash="L4C5hzIV0d}@3+WW:+oz00t6^jE2" classId="bg-profile-img" />*/}
                 </div>
             </div>
             <div className="row justify-content-center">

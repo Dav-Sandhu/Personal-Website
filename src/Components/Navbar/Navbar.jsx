@@ -1,11 +1,14 @@
 import './Navbar.scss'
 
-//A custom navigation bar that uses BootstrapV5.0 to stylize itself.
+//A custom navigation bar created using Bootstrap.
 const Navbar = ({setScreen}) => {
     return(
         <nav className="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+            
+            {/*Home section Heading.*/}
             <a className="navbar-brand ms-2" href="#">Davanjit Sandhu</a>
 
+            {/*For smaller screens/mobile devices it changes the layout to better suit the hardware.*/}
             <button 
                 className="navbar-toggler" 
                 type="button" 
@@ -20,7 +23,9 @@ const Navbar = ({setScreen}) => {
             <div className="collapse navbar-collapse ms-2" id="navContent">
                 <ul className="navbar-nav ms-auto">
                     <li className="nav-item active" role="button">
-                        {/* used to update selected screen element, the second argument is to make sure it updates no matter what. */}
+                        {/* 
+                            Used to move the screen to where the button points, the second argument is to make sure it updates no matter what. 
+                        */}
                         <span className="nav-link" onClick={() => setScreen(prev => ["home", !prev[1]])}>
                             Home
                         </span>

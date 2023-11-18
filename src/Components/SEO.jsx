@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async"
 
-//used for search engine optimization
+//Used for search engine optimization.
 export default function SEO({title, description, name, type}){
     return(
         <Helmet>

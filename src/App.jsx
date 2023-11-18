@@ -9,7 +9,7 @@ import './App.scss'
 
 import { useRef, useEffect, useState } from "react"
 
-//required for HelmetProvider which is used to prevent leakage.
+//Required for HelmetProvider which is used to prevent leakage.
 const helmetContext = {}
 
 //The 'App' component is the main hub where all other elements are compiled together into one functional webpage.
