@@ -41,7 +41,7 @@ const About = () => {
                             Graduated from the University of Windsor with a Bachelor of Computer Science and a minor in Political Science in 2021.
                             Worked at <a href="https://gaotek.com/" style={{ color: 'white'}}>GaoTek Inc.</a>&nbsp; as a <i>"Software Development Intern"</i> 
 							from August 2021 to November 2021, at <a href="https://www.maxxprinting.com/" style={{ color: 'white'}}>MAXX Printing</a>&nbsp; 
-							as a <i>"Web Development Intern"</i> from September 2023 to January 2024, and at 
+							as a <i>"Web Development Intern"</i> from September 2023 to January 2024, and as a <i>"Software Developer"</i> at&nbsp; 
                             <a href="https://www.championproducts.com/info/about-us/" style={{ color: 'white'}}>Champion Products Corp.</a>&nbsp; From January 2024
                             to Present. 
                         </div>
