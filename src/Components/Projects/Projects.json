@@ -1,6 +1,14 @@
 {
     "data": [
         {
+            "name": "WFC WorkForce App (2024)",
+            "description": "App for keeping track of employees work/clocked in hours at WFC and Champion.",
+            "uses": "React.js, Node.js, Express.js, Microsoft SQL Server, Docker, Azure, Bootstrap.js, SCSS",
+            "img": "WFCWorkforce",
+            "hash": "L6PGmq00000300-.-:-:W8~poaD$",
+            "href": "https://github.com/Dav-Sandhu/WorkForce-App"
+        },
+        {
             "name": "Kanban Board (2023)",
             "description": "A kanban board where you can drag and drop cards into different columns.",
             "uses": "React.js, React-DND",

@@ -4,6 +4,7 @@ import DiceGame from "../../Resources/Dice-Game.png"
 import ListMaker from "../../Resources/List-Maker.png"
 import CameraApp from "../../Resources/Camera-App.png"
 import KanbanBoard from "../../Resources/Kanban-Board.png"
+import WFCWorkforce from "../../Resources/WFC-Workforce.png"
 
 /*
   This way it creates a pointer to the original image file when imported
@@ -15,5 +16,6 @@ export const images = {
     DiceGame: DiceGame,
     ListMaker: ListMaker,
     CameraApp: CameraApp,
-    KanbanBoard: KanbanBoard
+    KanbanBoard: KanbanBoard,
+    WFCWorkforce: WFCWorkforce
   }
