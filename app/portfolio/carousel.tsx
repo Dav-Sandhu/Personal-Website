@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 import Carousel from "react-multi-carousel"
 import "react-multi-carousel/lib/styles.css"
-
+import runOption from '../runOption'
 import "./carousel.scss"
 
 //data type for each project object in the data array
@@ -48,7 +48,7 @@ export default function ProjectsCarousel({data}: {data: Array<Project>}){
                                 {/*project image*/}
                                 <div className="project-image w-full relative">
                                     <Image
-                                        src={item.img}
+                                        src={runOption(item.img)}
                                         alt={item.name}
                                         fill
                                         style={{ objectFit: "contain" }}

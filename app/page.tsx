@@ -6,7 +6,7 @@ import runOption from './runOption'
 
 export default function Home(){
 
-  const homeImageSrc = runOption("/background-image.jpg")
+  const homeImageSrc = runOption("background-image.jpg")
 
   return(
     <div className="home-page bg-slate-200">

@@ -1,10 +1,13 @@
 'use client'
 import { useState } from "react"
 import Head from 'next/head'
+import runOption from './runOption'
 
 export default function HomeContent(){
 
     const [showAbout, setShowAbout] = useState(false)
+
+    const portfolioPath = runOption('portfolio')
 
     return(
         <>
@@ -18,7 +21,7 @@ export default function HomeContent(){
                     <a className="home-button rounded mb-3 text-2xl text-center" href="./Resume.pdf" aria-label="Resume">Resume</a>
                     <a className="home-button rounded mb-3 text-2xl text-center" href="https://github.com/Dav-Sandhu" aria-label="Github">GitHub</a>
                     <a className="home-button rounded mb-3 text-2xl text-center" href="https://www.linkedin.com/in/davanjit-sandhu-496200211/" aria-label="LinkedIn">LinkedIn</a>
-                    <a className="home-button rounded mb-3 text-2xl text-center" href="/portfolio" aria-label="Portfolio">Portfolio</a>
+                    <a className="home-button rounded mb-3 text-2xl text-center" href={portfolioPath} aria-label="Portfolio">Portfolio</a>
                     <a className="home-button rounded mb-3 text-2xl text-center" href="https://itch.io/profile/boomnack" aria-label="Itch.io">Itch.io</a>
                     <a className="home-button rounded text-2xl text-center cursor-pointer" onClick={() => setShowAbout(true)} aria-label="About Me">About Me</a>
                 </div> :
