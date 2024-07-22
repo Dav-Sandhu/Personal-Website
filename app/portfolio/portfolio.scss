@@ -1,0 +1,23 @@
+.experience-section{
+    display: flex;
+    align-items: center;
+    height: 25vh;
+
+    @media(max-width: 694px){
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        overflow-y: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    @media(min-width: 695px){
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}

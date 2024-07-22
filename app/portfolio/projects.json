@@ -1,0 +1,53 @@
+{
+    "data": [
+        {
+            "name": "WFC WorkForce App (2024)",
+            "desc": "App for keeping track of employees work/clocked in hours at WFC and Champion.",
+            "stack": "React.js, Node.js, Express.js, Microsoft SQL Server, Docker, Azure, Bootstrap.js, SCSS",
+            "img": "/projects/WFC-Workforce.png",
+            "path": "https://github.com/Dav-Sandhu/WorkForce-App"
+        },
+        {
+            "name": "Kanban Board (2023)",
+            "desc": "A kanban board where you can drag and drop cards into different columns.",
+            "stack": "React.js, React-DND",
+            "img": "/projects/Kanban-Board.png",
+            "path": "https://github.com/Dav-Sandhu/Kanban-Board"
+        },
+        {
+            "name": "Poem Generator (2023)",
+            "desc": "Generates a poem and related image based off a given prompt using ChatGPT in the background.",
+            "stack": "OpenAI API, React.js, Node.js, Bootstrap",
+            "img": "/projects/OpenAI-Poem-Generator.png",
+            "path": "https://github.com/Dav-Sandhu/OpenAI-Poem-Generator"
+        },
+        {
+            "name": "Twitter Filter App (2022)",
+            "desc": "A filter application that only shows you tweets and nothing else by fetching tweets from specified users which you can add/remove from the list which is stored on your local computer as a JSON file. It was made because I wanted to filter out all of the unnecessary content meant to keep your engaged on Twitter.",
+            "stack": "ReactJS, NodeJS, ExpressJS",
+            "img": "/projects/Twitter-Filter.png",
+            "path": "https://github.com/Dav-Sandhu/Twitter-Filter"
+        },
+        {
+            "name": "List Maker (2022)",
+            "desc": "A website where you can create custom lists and save them to the database where they can be loaded later on, hosted on heroku and netlify and database utilizes MongoDB and Mongoose.",
+            "stack": "MERN Stack, ReduxJS, SASS",
+            "img": "/projects/List-Maker.png",
+            "path": "https://github.com/Dav-Sandhu/List-Maker-Version-2"
+        },
+        {
+            "name": "Dice of Daedalus (2022)",
+            "desc": "This is a strategy game that me and two of my friends developed over a two day weekend for a Game Jam where the theme was 'Roll of the Dice'. You have to match the dice faces with the floor tiles for each labelled tile to proceed to the next level.",
+            "stack": "Lua, Love2D",
+            "img": "/projects/Dice-Game.png",
+            "path": "https://avandolder.itch.io/dice-of-daedalus"
+        },
+        {
+            "name": "Custom Camera App (2022)",
+            "desc": "A custom camera application for Android devices where you can take pictures with both the front and back cameras and save the pictures taken to your library.",
+            "stack": "React Native, Expo",
+            "img": "/projects/Camera-App.png",
+            "path": "https://github.com/Dav-Sandhu/Custom-Camera-App"
+        }
+    ]
+}
