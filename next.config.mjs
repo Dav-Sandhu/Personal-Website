@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 
-const path = process.env.NODE_ENV === "production" ? '/personal-website' : ''
+const path = process.env.NODE_ENV === "production" ? '/Personal-Website' : ''
 
 const nextConfig = {
     basePath: path,
