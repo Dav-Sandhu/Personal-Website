@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    //basePath: "/Personal-Website",
+    basePath: "/Personal-Website",
     output: "export", 
     distDir: 'dist',
     images: {
