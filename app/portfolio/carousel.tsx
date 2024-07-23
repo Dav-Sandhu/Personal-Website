@@ -38,7 +38,12 @@ const responsive = {
 
 export default function ProjectsCarousel({data}: {data: Array<Project>}){
     return(
-        <Carousel responsive={responsive}>
+        <Carousel 
+            responsive={responsive}
+            autoPlay={true}
+            infinite={true}
+            autoPlaySpeed={2500}
+        >
             {
                 data.map( (item: Project) => {
                     return(
