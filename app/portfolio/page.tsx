@@ -1,6 +1,7 @@
 import Carousel from "./carousel"
 import projects from "./projects.json"
 import Head from 'next/head'
+import runOption from '../runOption'
 import "./portfolio.scss"
 
 export default function Portfolio(){
@@ -11,7 +12,7 @@ export default function Portfolio(){
                 <title>Davanjit Sandhu Portfolio and Work History</title>
                 <meta name="description" content="Showcases recent projects and professional work history." />
             </Head>
-            <a className="bg-sky-300 hover:bg-sky-400 text-sky-800 font-bold py-2 px-4 text-center rounded outline m-5" href="/" aria-label="Home button">Home</a>
+            <a className="bg-sky-300 hover:bg-sky-400 text-sky-800 font-bold py-2 px-4 text-center rounded outline m-5" href={runOption('/')} aria-label="Home button">Home</a>
 
             <section>
                 <h2 className="text-4xl text-center font-semibold text-sky-800" aria-label="Portfolio title">Portfolio</h2>

@@ -7,7 +7,7 @@ export default function HomeContent(){
 
     const [showAbout, setShowAbout] = useState(false)
 
-    const portfolioPath = runOption('portfolio')
+    const portfolioPath = runOption('/portfolio')
 
     return(
         <>
