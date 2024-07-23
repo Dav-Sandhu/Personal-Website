@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "NextJS-Test",
-  description: "App for testing Next.js applications",
+  title: "Personal Website",
+  description: "My Personal Website 2024 edition",
 }
 
 export default function RootLayout({ children, }: Readonly<{ children: React.ReactNode }>) {
