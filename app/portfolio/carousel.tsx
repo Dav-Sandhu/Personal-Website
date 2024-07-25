@@ -49,7 +49,7 @@ export default function ProjectsCarousel({data}: {data: Array<Project>}){
                     return(
                         <a href={item.path} key={item.img}>
                             {/*iterates through the data array and outputs each project*/}
-                            <div className="project mt-5 m-5 p-5 rounded bg-blue-50 hover:bg-white overflow-y-scroll no-scrollbar" aria-label={item.name}>
+                            <div className="project mt-5 m-5 p-5 rounded bg-blue-50 hover:bg-white overflow-y-scroll no-scrollbar shadow-md" aria-label={item.name}>
                                 {/*project image*/}
                                 <div className="project-image w-full relative">
                                     <Image
