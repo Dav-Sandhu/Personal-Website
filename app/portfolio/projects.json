@@ -8,11 +8,11 @@
             "path": "https://github.com/Dav-Sandhu/WorkForce-App"
         },
         {
-            "name": "Scale The Wall (2024)",
+            "name": "GMTK Game Jam Entry (2024)",
             "desc": "Isometric point and click game made for the GMTK 2024 Game Jam.",
             "stack": "React.js, TypeScript, Vite, Phaser, Matter.js",
             "img": "/projects/GMTK2024.png",
-            "path": "https://scalethewall.netlify.app/"
+            "path": "https://github.com/Dav-Sandhu/GMTK-GameJam-2024"
         },
         {
             "name": "Kanban Board (2023)",
