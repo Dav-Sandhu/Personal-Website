@@ -4,7 +4,7 @@
             "name": "WFC WorkForce App (2024)",
             "desc": "App for keeping track of employees work/clocked in hours at WFC and Champion.",
             "stack": "React.js, Node.js, Express.js, Microsoft SQL Server, Docker, Azure, Bootstrap.js, SCSS",
-            "img": "/projects/WFC-Workforce.png",
+            "img": "/projects/generic.png",
             "path": "https://github.com/Dav-Sandhu/WorkForce-App"
         },
         {
@@ -15,10 +15,17 @@
             "path": "https://github.com/Dav-Sandhu/GMTK-GameJam-2024"
         },
         {
+            "name": "Product Management Interface With Authentication",
+            "desc": "An application that handles user authentication and product management.",
+            "stack": "MERN Stack, TypeScript",
+            "img": "/projects/generic.png",
+            "path": "https://github.com/Dav-Sandhu/Product-Management-Interface-with-Authentication" 
+        },
+        {
             "name": "Kanban Board (2023)",
             "desc": "A kanban board where you can drag and drop cards into different columns.",
             "stack": "React.js, React-DND",
-            "img": "/projects/Kanban-Board.png",
+            "img": "/projects/generic.png",
             "path": "https://github.com/Dav-Sandhu/Kanban-Board"
         },
         {
@@ -32,7 +39,7 @@
             "name": "Twitter Filter App (2022)",
             "desc": "A filter application that only shows you tweets and nothing else by fetching tweets from specified users which you can add/remove from the list which is stored on your local computer as a JSON file. It was made because I wanted to filter out all of the unnecessary content meant to keep your engaged on Twitter.",
             "stack": "ReactJS, NodeJS, ExpressJS",
-            "img": "/projects/Twitter-Filter.png",
+            "img": "/projects/generic.png",
             "path": "https://github.com/Dav-Sandhu/Twitter-Filter"
         },
         {
