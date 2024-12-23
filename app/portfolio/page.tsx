@@ -12,10 +12,14 @@ export default function Portfolio(){
                 <title>Davanjit Sandhu Portfolio and Work History</title>
                 <meta name="description" content="Showcases recent projects and professional work history." />
             </Head>
-            <a className="bg-sky-300 hover:bg-sky-400 text-sky-800 font-bold py-2 px-4 text-center rounded outline m-5" href={runOption('/')} aria-label="Home button">Home</a>
 
             <section>
-                <h2 className="text-4xl text-center font-semibold text-sky-800" aria-label="Portfolio title">Portfolio</h2>
+                <h2 className="text-4xl text-center font-extrabold text-sky-800 mb-2" aria-label="Portfolio title">Portfolio</h2>
+
+                <div className="portfolio-buttons flex flex-row w-full justify-center">
+                    <a className="bg-sky-300 hover:bg-sky-400 text-sky-800 font-bold py-2 px-4 text-center rounded outline m-5" href={runOption('/')} aria-label="Home button">Home</a>
+                    <a className="bg-sky-300 hover:bg-sky-400 text-sky-800 font-bold py-2 px-4 text-center rounded outline m-5" href="./Portfolio.pdf" aria-label="Download Portfolio">Download Portfolio</a>
+                </div>
                 
                 {/*carousel that showcases all the projects*/}
                 <div className="projects-section bg-blue-100 mt-5" aria-label="Carousel of recent projects">

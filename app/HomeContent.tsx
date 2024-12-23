@@ -19,6 +19,7 @@ export default function HomeContent(){
                         <meta name="description" content="Links to various profiles such as my Resume, GitHub, LinkedIn, Portfolio, and Itch.io" />
                     </Head>
                     <a className="home-button rounded mb-3 text-2xl text-center" href="./Resume.pdf" aria-label="Resume">Resume</a>
+                    <a className="home-button rounded mb-3 text-2xl text-center" href="./CV.pdf" aria-label="CV">Curriculum Vitae</a>
                     <a className="home-button rounded mb-3 text-2xl text-center" href="https://github.com/Dav-Sandhu" aria-label="Github">GitHub</a>
                     <a className="home-button rounded mb-3 text-2xl text-center" href="https://www.linkedin.com/in/davanjit-sandhu-496200211/" aria-label="LinkedIn">LinkedIn</a>
                     <a className="home-button rounded mb-3 text-2xl text-center" href={portfolioPath} aria-label="Portfolio">Portfolio</a>
