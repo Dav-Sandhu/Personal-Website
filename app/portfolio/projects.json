@@ -9,8 +9,8 @@
         },
         {
             "name": "GMTK Game Jam Entry (2024)",
-            "desc": "Isometric point and click game made for the GMTK 2024 Game Jam.",
-            "stack": "React.js, TypeScript, Vite, Phaser, Matter.js",
+            "desc": "Isometric point and click game made for the GMTK 2024 Game Jam. The current version of this game is HD-2D and uses Godot (the game is currently in progress though private for now).",
+            "stack": "React.js, TypeScript, Vite, Phaser, Godot",
             "img": "/projects/GMTK2024.png",
             "path": "https://github.com/Dav-Sandhu/GMTK-GameJam-2024"
         },
@@ -20,34 +20,6 @@
             "stack": "MERN Stack, TypeScript",
             "img": "/projects/generic.png",
             "path": "https://github.com/Dav-Sandhu/Product-Management-Interface-with-Authentication" 
-        },
-        {
-            "name": "Kanban Board (2023)",
-            "desc": "A kanban board where you can drag and drop cards into different columns.",
-            "stack": "React.js, React-DND",
-            "img": "/projects/generic.png",
-            "path": "https://github.com/Dav-Sandhu/Kanban-Board"
-        },
-        {
-            "name": "Poem Generator (2023)",
-            "desc": "Generates a poem and related image based off a given prompt using ChatGPT in the background.",
-            "stack": "OpenAI API, React.js, Node.js, Bootstrap",
-            "img": "/projects/OpenAI-Poem-Generator.png",
-            "path": "https://github.com/Dav-Sandhu/OpenAI-Poem-Generator"
-        },
-        {
-            "name": "Twitter Filter App (2022)",
-            "desc": "A filter application that only shows you tweets and nothing else by fetching tweets from specified users which you can add/remove from the list which is stored on your local computer as a JSON file. It was made because I wanted to filter out all of the unnecessary content meant to keep your engaged on Twitter.",
-            "stack": "ReactJS, NodeJS, ExpressJS",
-            "img": "/projects/generic.png",
-            "path": "https://github.com/Dav-Sandhu/Twitter-Filter"
-        },
-        {
-            "name": "List Maker (2022)",
-            "desc": "A website where you can create custom lists and save them to the database where they can be loaded later on, hosted on heroku and netlify and database utilizes MongoDB and Mongoose.",
-            "stack": "MERN Stack, ReduxJS, SASS",
-            "img": "/projects/List-Maker.png",
-            "path": "https://github.com/Dav-Sandhu/List-Maker-Version-2"
         },
         {
             "name": "Dice of Daedalus (2022)",

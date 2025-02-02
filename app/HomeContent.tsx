@@ -19,7 +19,6 @@ export default function HomeContent(){
                         <meta name="description" content="Links to various profiles such as my Resume, GitHub, LinkedIn, Portfolio, and Itch.io" />
                     </Head>
                     <a className="home-button rounded mb-3 text-2xl text-center" href="./Resume.pdf" aria-label="Resume">Resume</a>
-                    <a className="home-button rounded mb-3 text-2xl text-center" href="./CV.pdf" aria-label="CV">Curriculum Vitae</a>
                     <a className="home-button rounded mb-3 text-2xl text-center" href="https://github.com/Dav-Sandhu" aria-label="Github">GitHub</a>
                     <a className="home-button rounded mb-3 text-2xl text-center" href="https://www.linkedin.com/in/davanjit-sandhu-496200211/" aria-label="LinkedIn">LinkedIn</a>
                     <a className="home-button rounded mb-3 text-2xl text-center" href={portfolioPath} aria-label="Portfolio">Portfolio</a>
@@ -36,17 +35,15 @@ export default function HomeContent(){
                         <h2 className="text-3xl text-center">About Me</h2>
                         <p>
                             <span className="inline-block ml-4">My</span> name is Davanjit Sandhu and I am a software developer with a key 
-                            interest in the field of web development. I have thus far worked at 2 previous 
-                            internships at 
-                            &nbsp;<a className="text-cyan-700 underline" href="https://gaotek.com/">Gao Tek</a> and 
-                            &nbsp;<a className="text-cyan-700 underline" href="https://www.maxxprinting.com/">Maxx Printing</a>&nbsp;
+                            interest in the field of web development. I previously worked as a software developer intern at
+                            &nbsp;<a className="text-cyan-700 underline" href="https://gaotek.com/">Gao Tek</a>&nbsp;
                             and am currently working as a full-time software developer at 
                             &nbsp;<a className="text-cyan-700 underline" href="https://championproducts.com/">Champion Products</a>, 
-                            where I am tasked with making websites such as a website that tracks employee activity. I can do Android 
-                            development (Kotlin/Java, Android Studio, React Native), game development (Unity, Python, Lua) and much more, 
+                            where I am tasked with making full stack websites and hosting them on the cloud. I can do Android 
+                            development (Kotlin/Java, Android Studio, React Native), game development (Godot, Unity, Python, Lua) and much more, 
                             but have recently been focused on web development. For most of my 
-                            web development history I have used either React.js or JavaScript with an occasional project in Next.js 
-                            (in fact, the current version of this website is made using Next.js), Angular.js or Laravel, 
+                            web development history I have used either React.js, PHP, HTML/CSS/JavaScript, or Next.js 
+                            (in fact, the current version of this website is made using Next.js), 
                             and so I am very familiar with the fundamentals of web design at this point. I have 
                             mastered all the basics of web development including HTML/CSS, using and hosting 
                             applications on cloud platform such as Azure, databases such as MySQL, MSSQL, and MongoDB, 
