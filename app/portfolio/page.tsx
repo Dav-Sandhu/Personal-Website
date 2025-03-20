@@ -33,14 +33,8 @@ export default function Portfolio(){
                     <div className="experience-section no-scrollbar">
                         <div className="m-5" aria-label="Software Developer at Champion Products Corp. from January 2024 to the present">
                             <h2 className="underline text-lg">Software Developer</h2>
-                            <h3><a className="hover:text-amber-300" href="https://championproducts.com/">Champion Products Corp.</a> (January 2024 - Present)</h3>
+                            <h3><a className="hover:text-amber-300" href="https://championproducts.com/">Champion Products Corp.</a> (January 2022 - Present)</h3>
                             <p className="text-xs">Created an application that monitors employee activity.</p>
-                        </div>
-
-                        <div className="m-5" aria-label="Website Development Intern at Maxx Printing from September 2023 to January 2024">
-                            <h2 className="underline text-lg">Website Development Intern</h2>
-                            <h3><a className="hover:text-amber-300" href="https://www.maxxprinting.com/">Maxx Printing</a> (September 2023 - January 2024)</h3>
-                            <p className="text-xs">Worked on the front-end of applications for clients.</p>
                         </div>
 
                         <div className="m-5" aria-label="Software Developer Intern at Gao Tek Inc. from August 2021 to November 2021">
