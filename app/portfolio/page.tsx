@@ -14,7 +14,7 @@ export default function Portfolio(){
             </Head>
 
             <section>
-                <h2 className="text-4xl text-center font-extrabold text-sky-800 mb-2" aria-label="Portfolio title">Portfolio</h2>
+                <h2 className="text-4xl text-center font-extrabold text-sky-900 mb-2" aria-label="Portfolio title">Portfolio</h2>
 
                 <div className="portfolio-buttons flex flex-row w-full justify-center">
                     <a className="bg-sky-300 hover:bg-sky-400 text-sky-800 font-bold py-2 px-4 text-center rounded outline m-5" href={runOption('/')} aria-label="Home button">Home</a>
