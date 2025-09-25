@@ -34,7 +34,7 @@ export default function Portfolio(){
                         <div className="m-5" aria-label="Software Developer at Champion Products Corp. from January 2024 to the present">
                             <h2 className="underline text-lg">Software Developer</h2>
                             <h3><a className="hover:text-amber-300" href="https://championproducts.com/">Champion Products Corp.</a> (January 2022 - Present)</h3>
-                            <p className="text-xs">Created an application that monitors employee activity.</p>
+                            <p className="text-xs">Created and maintained company websites.</p>
                         </div>
 
                         <div className="m-5" aria-label="Software Developer Intern at Gao Tek Inc. from August 2021 to November 2021">

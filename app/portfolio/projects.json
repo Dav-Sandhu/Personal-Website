@@ -8,18 +8,25 @@
             "path": "https://github.com/Dav-Sandhu/WorkForce-App"
         },
         {
-            "name": "GMTK Game Jam Entry (2024)",
-            "desc": "Isometric point and click game made for the GMTK 2024 Game Jam. The current version of this game is HD-2D and uses Godot (the game is currently in progress though private for now).",
-            "stack": "React.js, TypeScript, Vite, Phaser, Godot",
-            "img": "/projects/GMTK2024.png",
-            "path": "https://github.com/Dav-Sandhu/GMTK-GameJam-2024"
-        },
-        {
             "name": "Product Management Interface With Authentication (2024)",
             "desc": "An application that handles user authentication and product management.",
             "stack": "MERN Stack, TypeScript",
             "img": "/projects/generic.png",
             "path": "https://github.com/Dav-Sandhu/Product-Management-Interface-with-Authentication" 
+        },
+        {
+            "name": "Tier List (2024)",
+            "desc": "A custom tier list website that doesn't require an account and provides more customization.",
+            "stack": "React.js, JavaScript, SCSS",
+            "img": "/projects/Tier-List.png",
+            "path": "https://github.com/Dav-Sandhu/Tier-List"
+        },
+        {
+            "name": "GMTK Game Jam Entry (2024)",
+            "desc": "Isometric point and click game made for the GMTK 2024 Game Jam. The current version of this game is HD-2D and uses Godot (the game is currently in progress though private for now).",
+            "stack": "React.js, TypeScript, Vite, Phaser, Godot",
+            "img": "/projects/GMTK2024.png",
+            "path": "https://github.com/Dav-Sandhu/GMTK-GameJam-2024"
         },
         {
             "name": "Dice of Daedalus (2022)",
