@@ -1,0 +1,86 @@
+.project{
+    aspect-ratio: 16/9;
+    position: relative;
+    border: 1px solid black;
+
+    .project-image{
+        height: 100%;
+        width: 100%;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+
+        .project-info{
+
+            font-size: 1em;
+
+            h1{
+                font-size: 1.35em;
+            }
+
+            h2{
+                font-size: 0.9em;
+            }
+
+            @media(max-width: 1024px){
+                font-size: 0.9em;
+
+                h1{
+                    font-size: 1.25em;
+                }
+
+                h2{
+                    font-size: 0.8em;
+                }
+            }
+
+            @media(max-width: 768px){
+                font-size: 0.75em;
+
+                h1{
+                    font-size: 1em;
+                }
+
+                h2{
+                    font-size: 0.65em;
+                }
+            }
+
+            @media(max-width: 595px){
+                font-size: 0.9em;
+
+                h1{
+                    font-size: 1.25em;
+                }
+
+                h2{
+                    font-size: 0.8em;
+                }
+            }
+
+            .project-desc{
+                display: none;
+            }
+        }
+
+        &:hover{
+            .project-info{
+                height: 100%;
+
+                .project-desc{
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

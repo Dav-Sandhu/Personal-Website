@@ -1,0 +1,32 @@
+.skill{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+
+    width: 11em;
+    height: 11em;
+
+    @media(max-width: 3000px){
+        width: 9em;
+        height: 9em;
+    }
+
+    @media(max-width: 1024px){
+        width: 8em;
+        height: 8em;
+    }
+
+    @media(max-width: 695px){
+        width: 7em;
+        height: 7em;
+    }
+
+    @media(max-width: 300px){
+        width: 5em;
+        height: 5em;
+    }
+}

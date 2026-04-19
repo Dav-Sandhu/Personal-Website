@@ -1,0 +1,199 @@
+{
+    "data": [
+        {
+            "img": "/company-logos/React-icon.svg",
+            "name": "React.js",
+            "category": "web-development"
+        },
+        {
+            "img": "/company-logos/Node.js_logo.svg",
+            "name": "Node.js",
+            "category": "web-development"
+        },
+        {
+            "img": "/company-logos/expressjs-ar21.svg",
+            "name": "Express.js",
+            "category": "web-development"
+        },
+        {
+            "img": "/company-logos/Nextjs-logo.svg",
+            "name": "Next.js",
+            "category": "web-development"
+        },
+        {
+            "img": "/company-logos/HTML5_logo_and_wordmark.svg",
+            "name": "HTML",
+            "category": "web-development"
+        },
+        {
+            "img": "/company-logos/Official_CSS_Logo.svg",
+            "name": "CSS",
+            "category": "web-development"
+        },
+        {
+            "img": "/company-logos/Sass_Logo_Color.svg",
+            "name": "SASS",
+            "category": "web-development"
+        },
+        {
+            "img": "/company-logos/Unofficial_JavaScript_logo_2.svg",
+            "name": "JavaScript",
+            "category": "web-development"
+        },
+        {
+            "img": "/company-logos/Typescript_logo_2020.svg",
+            "name": "TypeScript",
+            "category": "web-development"
+        },
+        {
+            "img": "/company-logos/Bootstrap_logo.svg",
+            "name": "Bootstrap.js",
+            "category": "web-development"
+        },
+        {
+            "img": "/company-logos/CyPress_logo.svg",
+            "name": "Cypress",
+            "category": "web-development"
+        },
+        {
+            "img": "/company-logos/docker-ar21.svg",
+            "name": "Docker",
+            "category": "web-development"
+        },
+        {
+            "img": "/company-logos/vitejsdev-ar21.svg",
+            "name": "Vite",
+            "category": "web-development"
+        },
+        {
+            "img": "/company-logos/jestjsio-ar21.svg",
+            "name": "JEST",
+            "category": "web-development"
+        },
+        {
+            "img": "/company-logos/js_redux-ar21.svg",
+            "name": "Redux",
+            "category": "web-development"
+        },
+        {
+            "img": "/company-logos/Oauth_logo.svg",
+            "name": "OAuth 2.0",
+            "category": "web-development"
+        },
+        {
+            "img": "/company-logos/php-ar21.svg",
+            "name": "PHP",
+            "category": "web-development"
+        },
+        {
+            "img": "/company-logos/microsoft-sql-server-logo.svg",
+            "name": "Microsoft SQL Server",
+            "category": "web-development"
+        },
+        {
+            "img": "/company-logos/mongodb-ar21.svg",
+            "name": "MongoDB",
+            "category": "web-development"
+        },
+        {
+            "img": "/company-logos/mysql-ar21.svg",
+            "name": "MySQL",
+            "category": "web-development"
+        },
+        {
+            "img": "/company-logos/microsoft_azure-ar21.svg",
+            "name": "Microsoft Azure",
+            "category": "devops"
+        },
+        {
+            "img": "/company-logos/git-scm-ar21.svg",
+            "name": "Git",
+            "category": "devops"
+        },
+        {
+            "img": "/company-logos/godotengine-ar21.svg",
+            "name": "Godot",
+            "category": "game-development"
+        },
+        {
+            "img": "/company-logos/900px-love-app-0.10.png",
+            "name": "Love2D",
+            "category": "game-development"
+        },
+        {
+            "img": "/company-logos/BabylonIdentity.svg",
+            "name": "Babylon.js",
+            "category": "game-development"
+        },
+        {
+            "img": "/company-logos/phaserio-ar21.svg",
+            "name": "Phaser",
+            "category": "game-development"
+        },
+        {
+            "img": "/company-logos/GameMaker_Logo.svg",
+            "name": "Game Maker",
+            "category": "game-development"
+        },
+        {
+            "img": "/company-logos/program-logo-rpg-maker-vx-ace-2273982354.png",
+            "name": "RPG Maker VX Ace",
+            "category": "game-development"
+        },
+        {
+            "img": "/company-logos/Pygame_logo.svg",
+            "name": "PyGame",
+            "category": "game-development"
+        },
+        {
+            "img": "/company-logos/unity3d-ar21.svg",
+            "name": "Unity",
+            "category": "game-development"
+        },
+        {
+            "img": "/company-logos/Android_Studio_icon_(2023).svg",
+            "name": "Android Studio",
+            "category": "mobile-app-development"
+        },
+        {
+            "img": "/company-logos/react-native-logo-884x1024-808304191.png",
+            "name": "React Native",
+            "category": "mobile-app-development"
+        },
+        {
+            "img": "/company-logos/ISO_C++_Logo.svg",
+            "name": "C++",
+            "category": "software-development"
+        },
+        {
+            "img": "/company-logos/Java_programming_language_logo.svg",
+            "name": "Java",
+            "category": "software-development"
+        },
+        {
+            "img": "/company-logos/Kotlin_icon_(2016-2021).svg",
+            "name": "Kotlin",
+            "category": "software-development"
+        },
+        {
+            "img": "/company-logos/Logo_C_sharp.svg",
+            "name": "C#",
+            "category": "software-development"
+        },
+        {
+            "img": "/company-logos/Lua-Logo.svg",
+            "name": "Lua",
+            "category": "software-development"
+        },
+        {
+            "img": "/company-logos/Python-logo-notext.svg",
+            "name": "Python",
+            "category": "software-development"
+        },
+        {
+            "img": "/company-logos/The_C_Programming_Language_logo.svg",
+            "name": "C",
+            "category": "software-development"
+        }
+    ]
+}

@@ -18,21 +18,21 @@ export default function HomeContent(){
                         <title>Davanjit Sandhu Website Links</title>
                         <meta name="description" content="Links to various profiles such as my Resume, GitHub, LinkedIn, Portfolio, and Itch.io" />
                     </Head>
-                    <a className="home-button rounded mb-3 text-2xl text-center" href="./Resume.pdf" aria-label="Resume">Resume</a>
-                    <a className="home-button rounded mb-3 text-2xl text-center" href="https://github.com/Dav-Sandhu" aria-label="Github">GitHub</a>
-                    <a className="home-button rounded mb-3 text-2xl text-center" href="https://www.linkedin.com/in/davanjit-sandhu-496200211/" aria-label="LinkedIn">LinkedIn</a>
-                    <a className="home-button rounded mb-3 text-2xl text-center" href={portfolioPath} aria-label="Portfolio">Portfolio</a>
-                    <a className="home-button rounded mb-3 text-2xl text-center" href="https://itch.io/profile/boomnack" aria-label="Itch.io">Itch.io</a>
-                    <a className="home-button rounded text-2xl text-center cursor-pointer" onClick={() => setShowAbout(true)} aria-label="About Me">About Me</a>
+                    <a className="home-button rounded mb-3 text-2xl text-center text-slate-950" href="./Resume.pdf" aria-label="Resume">Resume</a>
+                    <a className="home-button rounded mb-3 text-2xl text-center text-slate-950" href="https://github.com/Dav-Sandhu" aria-label="Github">GitHub</a>
+                    <a className="home-button rounded mb-3 text-2xl text-center text-slate-950" href="https://www.linkedin.com/in/davanjit-sandhu-496200211/" aria-label="LinkedIn">LinkedIn</a>
+                    <a className="home-button rounded mb-3 text-2xl text-center text-slate-950" href={portfolioPath} aria-label="Portfolio">Portfolio</a>
+                    <a className="home-button rounded mb-3 text-2xl text-center text-slate-950" href="https://itch.io/profile/boomnack" aria-label="Itch.io">Itch.io</a>
+                    <a className="home-button rounded text-2xl text-center cursor-pointer text-slate-950" onClick={() => setShowAbout(true)} aria-label="About Me">About Me</a>
                 </div> :
-                <div className="about-content absolute top-0 bg-zinc-100 p-5 overflow-scroll" key={showAbout.toString()} aria-label="About Me Section">
+                <div className="about-content absolute top-0 bg-slate-100 p-5 overflow-scroll" key={showAbout.toString()} aria-label="About Me Section">
                     <Head>
-                        <title>About Me</title>
+                        <title className="text-slate-950">About Me</title>
                         <meta name="description" content="Information regarding my skillset and work history." />
                     </Head>
-                    <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4" onClick={() => setShowAbout(false)} aria-label="Return to home screen button">Back</button>
+                    <button className="bg-slate-300 hover:bg-slate-400 text-slate-950 font-bold py-2 px-4" onClick={() => setShowAbout(false)} aria-label="Return to home screen button">Back</button>
                     <section aria-label="description of my experience and skillset">
-                        <h2 className="text-3xl text-center">About Me</h2>
+                        <h2 className="text-3xl text-center text-slate-950">About Me</h2><br />
                         <p>
                             <span className="inline-block ml-4">My</span> name is Davanjit Sandhu and I am a software developer with a key 
                             interest in the field of web development. I previously worked as a software developer intern at

@@ -1,49 +1,49 @@
 {
     "data": [
         {
-            "name": "WFC WorkForce App (2024)",
+            "name": "WFC WorkForce App",
             "desc": "App for keeping track of employees work/clocked in hours at WFC and Champion.",
             "stack": "React.js, Node.js, Express.js, Microsoft SQL Server, Docker, Azure, Bootstrap.js, SCSS",
-            "img": "/projects/generic.png",
+            "img": "/projects/github.png",
             "path": "https://github.com/Dav-Sandhu/WorkForce-App"
         },
         {
-            "name": "Ramp - Capture The Flag Challenge (2025)",
+            "name": "Ramp - Capture The Flag Challenge",
             "desc": "A capture the flag challenge where you had to decipher encrypted texts across the internet.",
             "stack": "JavaScript, TypeScript",
-            "img": "/projects/generic.png",
+            "img": "/projects/github.png",
             "path": "https://github.com/Dav-Sandhu/Ramp-Capture-The-Flag-Challenge"
         },
         {
-            "name": "Product Management Interface With Authentication (2024)",
+            "name": "Product Management Interface With Authentication",
             "desc": "An application that handles user authentication and product management.",
             "stack": "MERN Stack, TypeScript",
-            "img": "/projects/generic.png",
+            "img": "/projects/github.png",
             "path": "https://github.com/Dav-Sandhu/Product-Management-Interface-with-Authentication" 
         },
         {
-            "name": "Scale The Wall 3D (2024 - Present)",
-            "desc": "A 3D game that is currently under development in the Godot engine.",
+            "name": "Scale The Wall 3D",
+            "desc": "A 3D game that I am currently working on in the Godot engine.",
             "stack": "Godot, GDScript",
             "img": "/projects/Scale-The-Wall-3D.png",
             "path": "https://github.com/Dav-Sandhu/Scale-The-Wall-3D"
         },
         {
-            "name": "Tier List (2024)",
+            "name": "Tier List",
             "desc": "A custom tier list website that doesn't require an account and provides more customization.",
             "stack": "React.js, JavaScript, SCSS",
             "img": "/projects/Tier-List.png",
             "path": "https://github.com/Dav-Sandhu/Tier-List"
         },
         {
-            "name": "Dice of Daedalus (2022)",
+            "name": "Dice of Daedalus",
             "desc": "This is a strategy game that me and two of my friends developed over a two day weekend for a Game Jam where the theme was 'Roll of the Dice'. You have to match the dice faces with the floor tiles for each labelled tile to proceed to the next level.",
             "stack": "Lua, Love2D",
             "img": "/projects/Dice-Game.png",
             "path": "https://avandolder.itch.io/dice-of-daedalus"
         },
         {
-            "name": "Custom Camera App (2022)",
+            "name": "Custom Camera App",
             "desc": "A custom camera application for Android devices where you can take pictures with both the front and back cameras and save the pictures taken to your library.",
             "stack": "React Native, Expo",
             "img": "/projects/Camera-App.png",

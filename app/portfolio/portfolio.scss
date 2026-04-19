@@ -21,3 +21,13 @@
 .no-scrollbar::-webkit-scrollbar {
     display: none;
 }
+
+.portfolio-btn{
+    border: 2px solid black;
+    color: black;
+
+    &:hover{
+        background-color: black;
+        color: white;
+    }
+}
