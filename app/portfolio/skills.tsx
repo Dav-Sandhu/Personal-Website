@@ -2,6 +2,7 @@
 
 import Image from "next/image"
 import "./skills.scss"
+import runOption from '../runOption'
 
 type Skill = {
     img: string,
@@ -10,6 +11,9 @@ type Skill = {
 }
 
 export default function Skills({ item }: { item: Skill }){
+
+    const img = runOption(item.img)
+
     return(
         <div className="skill" aria-label="company logo">
             {/* <img className="h-full w-full object-contain" src={item.img} alt="" /> */}
@@ -18,7 +22,7 @@ export default function Skills({ item }: { item: Skill }){
                 <Image 
                     className="h-full w-full object-contain"
                     style={{ objectFit: "contain" }} 
-                    src={item.img} 
+                    src={img} 
                     alt={item.name}
                     fill
                 />

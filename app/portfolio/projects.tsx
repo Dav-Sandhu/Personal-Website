@@ -1,6 +1,7 @@
 'use client'
 
 import "./projects.scss"
+import runOption from '../runOption'
 
 //data type for each project object in the data array
 type Project = {
@@ -13,12 +14,15 @@ type Project = {
 
 
 export default function Projects({ item }: { item: Project }){
+
+    const img = runOption(item.img)
+
     return(
         <a href={item.path} key={item.img}>
             {/*iterates through the data array and outputs each project*/}
             <div className="project mt-5 m-5 rounded bg-slate-50 hover:bg-white overflow-y-scroll no-scrollbar shadow-md" aria-label={item.name}>
                 {/*project image*/}
-                <div className="project-image w-full relative bg-cover bg-center" style={{ backgroundImage: `url(${item.img})` }}>
+                <div className="project-image w-full relative bg-cover bg-center" style={{ backgroundImage: `url(${img})` }}>
                     {/* <Image
                         src={runOption(item.img)}
                         alt={item.name}
