@@ -7,7 +7,7 @@ import runOption from '../runOption'
 type Skill = {
     img: string,
     name: string,
-    size: string,
+    size?: string,
     category: string
 }
 
