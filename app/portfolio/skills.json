@@ -3,6 +3,7 @@
         {
             "img": "/company-logos/React-icon.svg",
             "name": "React.js",
+            "size": "m",
             "category": "web-development"
         },
         {
@@ -23,31 +24,37 @@
         {
             "img": "/company-logos/HTML5_logo_and_wordmark.svg",
             "name": "HTML",
+            "size": "m",
             "category": "web-development"
         },
         {
             "img": "/company-logos/Official_CSS_Logo.svg",
             "name": "CSS",
+            "size": "m",
             "category": "web-development"
         },
         {
             "img": "/company-logos/Sass_Logo_Color.svg",
             "name": "SASS",
+            "size": "m",
             "category": "web-development"
         },
         {
             "img": "/company-logos/Unofficial_JavaScript_logo_2.svg",
             "name": "JavaScript",
+            "size": "m",
             "category": "web-development"
         },
         {
             "img": "/company-logos/Typescript_logo_2020.svg",
             "name": "TypeScript",
+            "size": "m",
             "category": "web-development"
         },
         {
             "img": "/company-logos/Bootstrap_logo.svg",
             "name": "Bootstrap.js",
+            "size": "m",
             "category": "web-development"
         },
         {
@@ -78,6 +85,7 @@
         {
             "img": "/company-logos/Oauth_logo.svg",
             "name": "OAuth 2.0",
+            "size": "m",
             "category": "web-development"
         },
         {
@@ -118,6 +126,7 @@
         {
             "img": "/company-logos/900px-love-app-0.10.png",
             "name": "Love2D",
+            "size": "m",
             "category": "game-development"
         },
         {
@@ -153,16 +162,19 @@
         {
             "img": "/company-logos/Android_Studio_icon_(2023).svg",
             "name": "Android Studio",
+            "size": "m",
             "category": "mobile-app-development"
         },
         {
             "img": "/company-logos/react-native-logo-884x1024-808304191.png",
             "name": "React Native",
+            "size": "m",
             "category": "mobile-app-development"
         },
         {
             "img": "/company-logos/ISO_C++_Logo.svg",
             "name": "C++",
+            "size": "m",
             "category": "software-development"
         },
         {
@@ -173,26 +185,31 @@
         {
             "img": "/company-logos/Kotlin_icon_(2016-2021).svg",
             "name": "Kotlin",
+            "size": "m",
             "category": "software-development"
         },
         {
             "img": "/company-logos/Logo_C_sharp.svg",
             "name": "C#",
+            "size": "m",
             "category": "software-development"
         },
         {
             "img": "/company-logos/Lua-Logo.svg",
             "name": "Lua",
+            "size": "m",
             "category": "software-development"
         },
         {
             "img": "/company-logos/Python-logo-notext.svg",
             "name": "Python",
+            "size": "m",
             "category": "software-development"
         },
         {
             "img": "/company-logos/The_C_Programming_Language_logo.svg",
             "name": "C",
+            "size": "m",
             "category": "software-development"
         }
     ]

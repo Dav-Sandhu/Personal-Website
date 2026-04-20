@@ -25,7 +25,7 @@ export default function Portfolio(){
                 
                 {/*carousel that showcases all the projects*/}
                 <div className="projects-section bg-slate-300 mt-5" aria-label="Carousel of recent projects">
-                    <h1 className="text-2xl font-semibold text-slate-600 ml-2">Recent Projects</h1>
+                    <h1 className="text-2xl font-bold text-slate-600 ml-2">Recent Projects</h1>
                     <MyCarousel 
                         data={ProjectsData.data}
                         Component={Projects} 
@@ -55,7 +55,7 @@ export default function Portfolio(){
 
                 {/*showcases skillset*/}
                 <div className="bg-slate-400 mt-5">
-                    <h1 className="text-2xl font-semibold ml-2 text-slate-800">Skillset</h1>
+                    <h1 className="text-2xl font-bold ml-2 text-slate-800">Skillset</h1>
                     <div className="ml-2 pb-2">
                         <MyCarousel 
                             data={SkillsData.data}
@@ -87,9 +87,9 @@ export default function Portfolio(){
                 </div>
 
                 {/*showcases previous work history*/}
-                <div className="bg-slate-950 mt-5 text-white" aria-label="Previous Work History Section">
-                    <h1 className="text-2xl font-semibold ml-2">Work Experience</h1>
-                    <div className="experience-section no-scrollbar">
+                <div className="bg-slate-950 mt-5 text-slate-50" aria-label="Previous Work History Section">
+                    <h1 className="text-2xl font-bold ml-2 mt-2">Work Experience</h1>
+                    <div className="experience-section no-scrollbar mb-5">
                         <div className="m-5" aria-label="Software Developer at Champion Products Corp. from January 2024 to the present">
                             <h2 className="underline text-lg">Software Developer</h2>
                             <h3><a className="hover:text-amber-300" href="https://championproducts.com/">Champion Products Corp.</a> (January 2022 - Present)</h3>
