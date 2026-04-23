@@ -52,6 +52,12 @@
             "category": "web-development"
         },
         {
+            "img": "/company-logos/Electron_Software_Framework_Logo.svg",
+            "name": "Electron.js",
+            "size": "m",
+            "category": "web-development"
+        },
+        {
             "img": "/company-logos/Bootstrap_logo.svg",
             "name": "Bootstrap.js",
             "size": "m",
