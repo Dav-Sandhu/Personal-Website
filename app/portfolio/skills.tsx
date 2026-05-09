@@ -11,14 +11,13 @@ type Skill = {
     category: string
 }
 
+//Displays company logo from given skill
 export default function Skills({ item }: { item: Skill }){
 
     const img = runOption(item.img)
 
     return(
         <div className="skill" aria-label="company logo">
-            {/* <img className="h-full w-full object-contain" src={item.img} alt="" /> */}
-            
             <div className="relative h-full w-full flex flex-col justify-center align-center">
                 <Image 
                     className={`object-contain opacity-70 hover:opacity-100 transition-all 
@@ -29,8 +28,6 @@ export default function Skills({ item }: { item: Skill }){
                     fill
                 />
             </div>
-            
-            {/* <h1 className="text-center">{item.name}</h1> */}
         </div>
     )
 }
