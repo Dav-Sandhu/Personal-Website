@@ -117,6 +117,7 @@
         {
             "img": "/company-logos/logo-color-600.png",
             "name": "TanStack-Query",
+            "size": "m",
             "category": "web-development"
         },
         {
