@@ -115,6 +115,16 @@
             "category": "web-development"
         },
         {
+            "img": "/company-logos/logo-color-600.png",
+            "name": "TanStack-Query",
+            "category": "web-development"
+        },
+        {
+            "img": "/company-logos/graphql.svg",
+            "name": "GraphQL",
+            "category": "web-development"
+        },
+        {
             "img": "/company-logos/microsoft_azure-ar21.svg",
             "name": "Microsoft Azure",
             "category": "devops"
