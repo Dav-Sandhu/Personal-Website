@@ -26,10 +26,6 @@ export default function HomeContent(){
                     <a className="home-button rounded text-2xl text-center cursor-pointer text-slate-950" onClick={() => setShowAbout(true)} aria-label="About Me">About Me</a>
                 </div> :
                 <div className="about-content absolute top-0 bg-slate-100 p-5 overflow-scroll" key={showAbout.toString()} aria-label="About Me Section">
-                    <Head>
-                        <title className="text-slate-950">About Me</title>
-                        <meta name="description" content="Information regarding my skillset and work history." />
-                    </Head>
                     <button className="bg-slate-300 hover:bg-slate-400 text-slate-950 font-bold py-2 px-4" onClick={() => setShowAbout(false)} aria-label="Return to home screen button">Back</button>
                     <section aria-label="description of my experience and skillset">
                         <h2 className="text-3xl text-center text-slate-950">About Me</h2><br />
