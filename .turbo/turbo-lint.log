@@ -1,0 +1,3 @@
+[WARN] "packageManager" and "devEngines.packageManager" specify different versions of pnpm in package.json. "packageManager" will be ignored
+$ next lint
+Terminate batch job (Y/N)? 
